@@ -79,13 +79,22 @@ Pro každý řádek `r` (od 0 do výšky - 1) a sloupec `s` (od 0 do `r`):
 
 ### Jak spočítat C(r, s)
 
-Kombinační číslo `C(r, s)` se počítá takhle (okopírujte si to)
+Kombinační číslo `C(r, s)` se počítá takhle (okopírujte si to na úplný začátek programu)
 
 ```python
-c = 1
-for i in range(s):
-    c = c * (r - i) // (i + 1)
+def kombinacni_cislo(r, s):
+    c = 1
+    for i in range(s):
+        c = c * (r - i) // (i + 1)
+    return c
 ```
+
+V samotném programu poté stačí napsat toto:
+
+```python
+kombinacni_cislo(r, s)
+```
+
 > `c` je samotné kombinační číslo, `s` je sloupec, `r` je řádek
 > Například `C(4, 2) = 6` (sudé → mezera), `C(5, 1) = 5` (liché → `*`).
 
