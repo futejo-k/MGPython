@@ -57,7 +57,8 @@ X     X
 X   X
  X X
   X
- 
+```
+
 **Chybová hlášení:**
 - Nečíselný vstup: `Chyba: zadej cele cislo!`
 - Mimo rozsah: `Chyba: cislo musi byt v rozsahu 3 az 69!`
@@ -118,6 +119,7 @@ XXXXX
 Pokud jsou šířka a výška stejné, zeptejte se uživatele, jestli chce přidat plot. Pokud ano, načtěte velikost plotu (musí být alespoň 1 a méně než výška). Plot se vykreslí vedle domečku.
 
 Plot velikosti 4 k domečku 5x5 vypadá takto:
+
 ```
   X
  X X
