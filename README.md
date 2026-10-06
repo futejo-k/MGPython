@@ -1,8 +1,74 @@
-# Python
+## Úkol 1 - Trojúhelník
+Napište program, který vykreslí rovnoramenný trojúhelník z libovolného znaku.
+
+**Zadání:**
+- Program se zeptá na výšku trojúhelníku.
+- Výška je celé číslo od 2 do 20.
+- Trojúhelník je dutý a zarovnaný na střed
+ 
+**Chybová hlášení:**
+- Nečíselný vstup: `Chyba: zadej cele cislo!`
+- Mimo rozsah: `Chyba: cislo musi byt v rozsahu 2 az 20!`
+
+### Příklady
+**Vstup:** `4`
+```
+   X
+  X X
+ X   X
+XXXXXXX
+```
+
+**Vstup:** `2`
+```
+ X
+XXX
+```
+ 
+**Bonus 1:** Otočte trojúhelník, aby se nejdřív vypsal nejdelší řádek.
 
 ---
 
-## Úkol 1 – Domeček
+## Úloha 2: Kosočtverec
+ 
+Napište program, který podle zadané velikosti vykreslí dutý kosočtverec z písmen `X`.
+ 
+**Zadání:**
+- Velikost je liché celé číslo od 3 do 69.
+- Horní polovina roste z jednoho `X` až po nejširší řádek, dolní polovina je její zrcadlový obraz.
+- Kosočtverec je dutý, uvnitř jsou jen mezery.
+
+### Příklady
+**Vstup:** `7`
+```
+   X
+  X X
+ X   X
+X     X
+ X   X
+  X X
+   X
+```
+
+**Vstup:** `5`
+```
+  X
+ X X
+X   X
+ X X
+  X
+ 
+**Chybová hlášení:**
+- Nečíselný vstup: `Chyba: zadej cele cislo!`
+- Mimo rozsah: `Chyba: cislo musi byt v rozsahu 3 az 69!`
+- Sudá velikost: `Chyba: velikost musi byt liche cislo!`
+**Nápověda:** Horní polovinu znáš ze střechy domečku. Největší řádek je uprostřed, tedy řádek číslo `velikost // 2`. Zamysli se, jak spočítat počet mezer před `X` a mezi dvěma `X` v každém řádku.
+ 
+**Bonus:** Do velkého kosočtverce nakresli uvnitř menší kosočtverec s odstupem jedné mezery (tvoří ho další `X`).
+ 
+---
+
+## Úkol 3 – Domeček
 
 Napište program, který nakreslí domeček ze znaků `X`. Program se uživatele zeptá na šířku a výšku domečku a pak ho vykreslí.
 
@@ -64,7 +130,7 @@ XXXXX-|-|
 
 ---
 
-## Úkol 2 – Sierpińského trojúhelník
+## Úkol 4 – Sierpińského trojúhelník
 
 Napište program, který vypíše Sierpińského trojúhelník. Je to **fraktál** – vzor, který se sám opakuje v menším měřítku donekonečna. Výšku zadá uživatel.
 
