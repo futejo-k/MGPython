@@ -1,5 +1,6 @@
 ## Úkol 1 - FizzBuzz (budeme dělat společně na hodině)
 Napište program, který vypíše čísla od 1 do 100 včetně.
+
 **Pravidla:**
 - Pokud je číslo dělitelné 3, vypíše se *Fizz*
 - Pokud je číslo dělitelné 5, vypíše se *Buzz*
@@ -10,7 +11,8 @@ Napište program, který vypíše čísla od 1 do 100 včetně.
 
 ## Úkol 2 - Statistika sudých a lichých čísel
 Napište program, který se pořád dokola ptá na čísla a pak znich dělá statistiku.
-**Zadání"**
+
+**Zadání**
 - Program se ptá pořád dokola na číselný vstup (pomocí `int(input())`)
 - Ze zadaných čísel se počítají statistiky:
 	- Počet sudých zadaných čísel
