@@ -14,6 +14,7 @@ Napište program, který se pořád dokola ptá na čísla a pak znich dělá st
 
 **Zadání**
 - Program se ptá pořád dokola na číselný vstup (pomocí `int(input())`)
+- Čísla jsou v rozmezí -10 000 až 10 000 včetně
 - Ze zadaných čísel se počítají statistiky:
 	- Počet sudých zadaných čísel
 	- Počet lichých zadaných čísel
